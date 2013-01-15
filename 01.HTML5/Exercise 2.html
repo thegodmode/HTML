@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title> Preceding Text </title>
+  <style  type="text/css">
+    
+
+
+ol li {
+	
+	    padding-left:12px ;
+}
+
+ol ol ul {
+	
+	  margin-left:6px;
+}
+
+ol ol li {
+	
+	padding-left:4px;
+	margin-left:-10px;
+	
+}
+
+ol ul li {
+	
+	padding-left:7px;
+	margin-left:-15px;
+}		   
+  
+  </style>
+ </head>
+
+  
+<body>
+Preceding Text 
+<ol type="I">
+   <li>  List  Item 1  
+      <ol type="a">
+         <li>Nested Item 1.1</li>
+         <li>Nested Item 1.2</li>
+     </ol>
+   </li> 
+   <li>  List Item 2 </li>
+      <ol type="1">
+          <li> Nested Item 2.1 </li>
+          <li> Nested Item 2.2 
+             <ul type="circle">
+                <li> Nested Item 2.2.1</li>
+                     <li> 
+				        Nested Item 2.2.2
+                        <ul type="square">
+                         <li> Nested Item 2.2.2.1</li>
+                         <li> Nested Item 2.2.2.2</li>
+						 <li> Nested Item 2.2.2.3 </li>
+						</ul>
+					 </li>
+			 </ul>
+          </li>
+          <li> Nested Item 2.3 </li>
+      </ol>
+   <li>  List Item 3 </li>
+       <ul type="disc">
+           <li>Nested Item 3.1</li>
+           <li>Nested Item 3.1</li>
+           <li>Nested Item 3.1</li>
+       </ul>
+</ol>
+</body>
+</html>
